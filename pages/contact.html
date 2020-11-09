@@ -13,7 +13,7 @@
 
     <nav class="navbar sticky-top navbar-expand-lg align-center navbar-light bg-light">
       <a class="navbar-brand" href="#">
-        <img src="./images/logo.png" alt="Unofficial Rubix Cube Site Logo" width="40" height="40" class="mr-2">
+        <img src="../images/logo.png" alt="Unofficial Rubix Cube Site Logo" width="40" height="40" class="mr-2">
         Unofficial Rubix Cube Site
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,10 +23,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="../index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Speed Cubing</a>
+            <a class="nav-link" href="speed-cubing.html">Speed Cubing</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
@@ -51,7 +51,25 @@
           <textarea class="bg-light offset-md-4 col-md-4" placeholder="Message"></textarea>
         </div>
         <div class="row">
-          <button type="submit" class="btn btn-primary col-md-2 offset-md-6">Submit</button>
+          <button type="button" class="btn btn-primary btn-lg col-md-2 offset-md-6" data-toggle="modal" data-target="#myModal">Submit</button>
+        </div>
+          <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog modal-dialog-centered">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Notification</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <p>Your submission was successful.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
         </div>
       </form>
     </div>
