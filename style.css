@@ -1,3 +1,17 @@
+.carousel {
+    margin-bottom: 4em;
+}
+
 .carousel-item {
     max-height: 92vh;
+}
+
+.guide {
+    text-align: center;
+}
+
+.guide-imgs {
+    border-radius: 50%;
+    width: 200px;
+    margin-bottom: 2em;
 }
