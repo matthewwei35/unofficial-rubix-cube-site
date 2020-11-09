@@ -37,3 +37,15 @@
 #contact-header {
     letter-spacing: 2px;
 }
+
+.hero-background-img {
+    background-image: url(./images/speed-cubing.jpg);
+    background-size: cover;
+    background-position: 0px -550px;
+}
+
+.hero-text-background {
+    width: 30%;
+    padding: 2em;
+    background-color: rgba(255, 255, 255, 0.5);
+}
